@@ -1,0 +1,195 @@
+*{margin:0;padding:0}
+			body{
+				width: 100%;
+				font-size: 12px;
+			}
+			.header{
+		
+			    height: 80px;
+			    display: flex;
+			    justify-content: space-around;
+			}
+			.header>.header_img{
+			    padding-left: 46px;
+			}
+			.header>ul{
+			    display: flex; 
+			    list-style: none;
+			    font-size: 20px !important;
+			}
+			.header>ul>li{
+			    height: 80px;
+			    line-height: 80px;
+			    padding: 0 24px;
+			   
+			    box-sizing: border-box;
+					cursor: pointer;
+			}
+			.header>ul>li>a{
+			    text-decoration: none;
+			}
+			.header ul li:nth-child(2){border-bottom:6px solid #866961;box-sizing: border-box;}
+			.header ul li:hover{border-bottom:6px solid #866961;box-sizing: border-box;}
+			.header ul li:hover a{color:#866961;}
+			.banner{
+				width:100%;
+				position: relative;
+				height:100%;
+			}
+			.banner>img{
+				width:100%;
+			}
+			.banner>.bg{
+				background: rgba(25,25,25,0.5);
+				position: absolute; 
+				top: 0;
+				width:100%;
+				height: 99%;
+			}
+			.banner>.bg>.font_1{
+						height: 100%;
+				    background: url(../images/border.gif)no-repeat center;
+				    display: flex;
+				    flex-direction: column;
+				    justify-content: center;
+				    align-items: center;
+			}
+			.banner>.bg>.font_1>p{
+				color:white;
+				font-size:24px;
+			}
+			.banner>.bg>.font_1>p:last-child{
+				    margin-left: 60px;
+				    padding-bottom: 17px;
+				}
+			.center{
+				width:1200px;
+				margin: 0 auto;
+				position: relative;
+			}
+			.center>.top_1{
+				margin: 0 102px;
+				display: flex;
+				align-items: flex-end;
+				justify-content: space-between;
+				border-bottom: 1px solid #d5d5d5;
+				padding:10px 0 5px;
+				
+			}
+			.center>.top_1>ul{
+				list-style: none;
+				display: flex;
+			}
+			.center>.top_1>ul>li>h2{
+				border-left: 2px solid #866961;
+				padding: 0 7px;
+				font-size: 16px;
+				font-weight: 500;
+				cursor: pointer;
+			}
+	
+			.center>.top_1>.ul_1>P>a{
+				text-decoration: none;
+			}
+			.center>.paging{
+
+				margin: 0 102px;
+			}
+			.center>.paging>.bn{
+				margin-top:20px;
+			}
+			.center>.paging>.bn>img{
+				width: 100%;
+			}
+			.center>.paging>.font{
+				height: 251px;
+			}
+			.center>.paging>.font>p{
+				    font-size: 14px;
+				    text-indent: 30px;
+				    line-height: 29px;
+				    color: #666;
+						text-align: justify;
+			}
+			.center>.paging>.font>p:first-child{
+						margin-top: 20px;
+				    margin-bottom: 15px;
+			}
+			.center>.paging1{
+				margin: 0 102px;
+				display: none;
+				
+			}
+			.center>.paging1>.font_2{
+				display: flex;
+				border-bottom: 1px solid #f2f2f2;
+				padding: 28px 0;
+			}
+			.center>.paging1>.font_2>.p1{
+						width: 56px;
+				    border-right: 1px solid #f3f3f3;
+				    margin-right: 15px;
+			}
+			.center>.paging1>.font_2>.p1>h2{
+				font-size: 38px;
+			  color: #866961;
+			}
+			.center>.paging1>.font_2>.p1>p{
+				font-size: 14px;
+				color: #999;
+			}
+			.center>.paging1>.font_2>.p2>p{
+						font-size: 16px;
+				    color: #866961;
+			}
+			.center>.paging1>.font_2>.p2>p:last-child{
+				margin-top: 20px;
+			}
+			.center>.paging2{
+				   margin: 0 102px;
+						display: none;
+			}
+			.center>.paging2>.font_3{
+				display: flex;
+			}
+			.center>.paging2>.font_3>.p3{
+				    width: 54px;
+				    display: flex;
+				    flex-direction: column;
+				    align-items: center;
+				    margin-right: 70px;
+			}
+			.center>.paging2>.font_3>.p3>h2{
+						color: #866961;
+				    font-size: 24px;
+				    margin-top: 18px;
+			}
+			.center>.paging2>.font_3>.p3>p{
+						width: 1px;
+						height: 58px;
+						background: #d5d5d5;
+			}
+			.center>.paging2>.font_3>.p4{
+				font-size: 14px;
+			}
+			.center>.paging2>.font_3>.p4>p{
+						height: 48px;
+				    border-bottom: 1px solid #f2f2f2;
+				    line-height: 68px;
+						color:#999;
+			}
+			.footer{
+			    padding: 0 102px;
+			    background: #866961;
+			    height: 80px;
+			    display: flex;
+			    justify-content: center;
+			}
+			.footer>p{
+			    color: white;
+			    line-height: 80px;
+			    margin-left: 68px;
+			}
+			.footer>img{
+			    margin-left: 120px;
+			}
